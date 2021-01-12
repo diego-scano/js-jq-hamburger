@@ -21,6 +21,7 @@ h1 {
   max-width: 800px;
   transition: 1s;
   padding-top: 10px;
+  cursor: pointer;
 }
 
 .darkred {
@@ -41,13 +42,14 @@ img {
   width: 100%;
   border-radius: 40%;
   opacity: 0.7;
-  filter: blur(5px);
+  filter: blur(5px) grayscale(100%);
   transition: 1s;
+  cursor: pointer;
 }
 
 .hover {
   opacity: 1;
-  filter: blur(0) saturate(150%);
+  filter: blur(0) grayscale(0) saturate(150%);
 }
 
 .names {
