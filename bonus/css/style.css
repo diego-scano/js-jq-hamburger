@@ -26,7 +26,7 @@ h1 {
 
 .darkred {
   color: darkred;
-  font-size: 5.2em;
+  font-size: 5.02em;
 }
 
 .photo-container, .names-container {
@@ -44,7 +44,7 @@ img {
   border-radius: 40%;
   opacity: 0.7;
   filter: blur(5px) grayscale(100%);
-  transition: 1s;
+  transition: 1.5s;
   cursor: pointer;
 }
 
@@ -57,7 +57,7 @@ img {
   font-size: 3em;
   color: white;
   text-shadow: 2px 2px black;
-  transition: 1s;
+  transition: 1.5s;
 }
 
 .hide {
